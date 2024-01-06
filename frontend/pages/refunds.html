@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Deposits</title>
+    <title>Manage Profile</title>
 
     <!-- Google Font: Source Sans Pro -->
     <link rel="stylesheet"
@@ -229,147 +229,144 @@
             </div>
 
             <section class="content">
-              <div class="container-fluid">
-                <div class="row">
-                  <div class="col-12">
-                    <div class="invoice p-3 mb-3">
-                      <!-- title row -->
-                      <div class="row">
-                        <div class="col-12">
-                          <h4>
-                            <i class="fas fa-globe"></i> DIT-SACCOS
-                          </h4>
+                <div class="container-fluid">
+                  <div class="row">
+                    <div class="col-12">
+                      <div class="invoice p-3 mb-3">
+                        <!-- title row -->
+                        <div class="row">
+                          <div class="col-12">
+                            <h4>
+                              <i class="fas fa-globe"></i> DIT-SACCOS
+                            </h4>
+                          </div>
+                          <!-- /.col -->
                         </div>
-                        <!-- /.col -->
-                      </div>
-                      <!-- info row -->
-                      <div class="row invoice-info">
-                        <div class="col-sm-4 invoice-col">
-                          From
-                          <address>
-                            <strong>Member</strong><br>
-                            Member Residence<br>
-                            Phone: (255) 784-399510<br>
-                            Email: member@gmail.com
-                          </address>
+                        <!-- info row -->
+                        <div class="row invoice-info">
+                          <div class="col-sm-4 invoice-col">
+                            From
+                            <address>
+                              <strong>Member</strong><br>
+                              Member Residence<br>
+                              Phone: (255) 784-399510<br>
+                              Email: member@gmail.com
+                            </address>
+                          </div>
+                          <!-- /.col -->
+                          <div class="col-sm-4 invoice-col">
+                            To
+                            <address>
+                              <strong>SACCOS Administration</strong><br>
+                              DIT<br>
+                              Phone: organization contacts<br>
+                              Email: email
+                            </address>
+                          </div>
+                          <!-- /.col -->
+                          <div class="col-sm-4 invoice-col">
+                            <b>Invoice #007612</b><br>
+                            <br>
+                            <b>Order ID:</b> 4F3S8J<br>
+                            <b>Account:</b> 968-34567
+                          </div>
+                          <!-- /.col -->
                         </div>
-                        <!-- /.col -->
-                        <div class="col-sm-4 invoice-col">
-                          To
-                          <address>
-                            <strong>SACCOS Administration</strong><br>
-                            DIT<br>
-                            Phone: organization contacts<br>
-                            Email: email
-                          </address>
+                        <!-- /.row -->
+          
+                        <!-- Table row -->
+                        <div class="row">
+                          <div class="col-12 table-responsive">
+                            <table class="table table-striped">
+                              <thead>
+                              <tr>
+                                <th>S/N</th>
+                                <th>Status</th>
+                                <th>Date</th>
+                                <th>Description</th>
+                                <th>Amount</th>
+                                <th>Action</th>
+                              </tr>
+                              </thead>
+                              <tbody>
+                              <tr>
+                                <td>1</td>
+                                <td>Call of Duty</td>
+                                <td>10/10/2023</td>
+                                <td>El snort testosterone trophy driving gloves handsome</td>
+                                <td>$64.50</td>
+                                <td class="text-center">
+                                  <button class="btn btn-primary edit_payment" type="button" data-id="<?php echo $row['id'] ?>"><i class="fa fa-edit"></i></button>
+                                  <button class="btn btn-danger delete_payment" type="button" data-id="<?php echo $row['id'] ?>"><i class="fa fa-trash"></i></button>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td>1</td>
+                                <td>Call of Duty</td>
+                                <td>10/10/2023</td>
+                                <td>El snort testosterone trophy driving gloves handsome</td>
+                                <td>$64.50</td>
+                                <td class="text-center">
+                                  <button class="btn btn-primary edit_payment" type="button" data-id="<?php echo $row['id'] ?>"><i class="fa fa-edit"></i></button>
+                                  <button class="btn btn-danger delete_payment" type="button" data-id="<?php echo $row['id'] ?>"><i class="fa fa-trash"></i></button>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td>1</td>
+                                <td>Call of Duty</td>
+                                <td>10/10/2023</td>
+                                <td>El snort testosterone trophy driving gloves handsome</td>
+                                <td>$64.50</td>
+                                <td class="text-center">
+                                  <button class="btn btn-primary edit_payment" type="button" data-id="<?php echo $row['id'] ?>"><i class="fa fa-edit"></i></button>
+                                  <button class="btn btn-danger delete_payment" type="button" data-id="<?php echo $row['id'] ?>"><i class="fa fa-trash"></i></button>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td>1</td>
+                                <td>Call of Duty</td>
+                                <td>10/10/2023</td>
+                                <td>El snort testosterone trophy driving gloves handsome</td>
+                                <td>$64.50</td>
+                                <td class="text-center">
+                                  <button class="btn btn-primary edit_payment" type="button" data-id="<?php echo $row['id'] ?>"><i class="fa fa-edit"></i></button>
+                                  <button class="btn btn-danger delete_payment" type="button" data-id="<?php echo $row['id'] ?>"><i class="fa fa-trash"></i></button>
+                                </td>
+                              </tr>
+                              </tbody>
+                            </table>
+                          </div>
+                          <!-- /.col -->
                         </div>
-                        <!-- /.col -->
-                        <div class="col-sm-4 invoice-col">
-                          <b>Invoice #007612</b><br>
-                          <br>
-                          <b>Order ID:</b> 4F3S8J<br>
-                          <b>Account:</b> 968-34567
+                        <!-- /.row -->
+          
+                        <div class="row">
+                          <!-- accepted payments column -->
+                          <div class="col-6">
+                            <p class="lead">Payment Methods:</p>
+                            <img src="/dist/img/credit/visa.png" alt="Visa">
+                            <img src="/dist/img/credit/mastercard.png" alt="Mastercard">
+                            <img src="/dist/img/credit/american-express.png" alt="American Express">
+                            <img src="/dist/img/credit/paypal2.png" alt="Paypal">
+                          </div>
+                          <!-- /.col -->
                         </div>
-                        <!-- /.col -->
-                      </div>
-                      <!-- /.row -->
-        
-                      <!-- Table row -->
-                      <div class="row">
-                        <div class="col-12 table-responsive">
-                          <table class="table table-striped">
-                            <thead>
-                            <tr>
-                              <th>S/N</th>
-                              <th>Status</th>
-                              <th>Date</th>
-                              <th>Description</th>
-                              <th>Amount</th>
-                              <th>Action</th>
-                            </tr>
-                            </thead>
-                            <tbody>
-                            <tr>
-                              <td>1</td>
-                              <td>Call of Duty</td>
-                              <td>10/10/2023</td>
-                              <td>El snort testosterone trophy driving gloves handsome</td>
-                              <td>$64.50</td>
-                              <td class="text-center">
-                                <button class="btn btn-primary edit_payment" type="button" data-id="<?php echo $row['id'] ?>"><i class="fa fa-edit"></i></button>
-                                <button class="btn btn-danger delete_payment" type="button" data-id="<?php echo $row['id'] ?>"><i class="fa fa-trash"></i></button>
-                              </td>
-                            </tr>
-                            <tr>
-                              <td>1</td>
-                              <td>Call of Duty</td>
-                              <td>10/10/2023</td>
-                              <td>El snort testosterone trophy driving gloves handsome</td>
-                              <td>$64.50</td>
-                              <td class="text-center">
-                                <button class="btn btn-primary edit_payment" type="button" data-id="<?php echo $row['id'] ?>"><i class="fa fa-edit"></i></button>
-                                <button class="btn btn-danger delete_payment" type="button" data-id="<?php echo $row['id'] ?>"><i class="fa fa-trash"></i></button>
-                              </td>
-                            </tr>
-                            <tr>
-                              <td>1</td>
-                              <td>Call of Duty</td>
-                              <td>10/10/2023</td>
-                              <td>El snort testosterone trophy driving gloves handsome</td>
-                              <td>$64.50</td>
-                              <td class="text-center">
-                                <button class="btn btn-primary edit_payment" type="button" data-id="<?php echo $row['id'] ?>"><i class="fa fa-edit"></i></button>
-                                <button class="btn btn-danger delete_payment" type="button" data-id="<?php echo $row['id'] ?>"><i class="fa fa-trash"></i></button>
-                              </td>
-                            </tr>
-                            <tr>
-                              <td>1</td>
-                              <td>Call of Duty</td>
-                              <td>10/10/2023</td>
-                              <td>El snort testosterone trophy driving gloves handsome</td>
-                              <td>$64.50</td>
-                              <td class="text-center">
-                                <button class="btn btn-primary edit_payment" type="button" data-id="<?php echo $row['id'] ?>"><i class="fa fa-edit"></i></button>
-                                <button class="btn btn-danger delete_payment" type="button" data-id="<?php echo $row['id'] ?>"><i class="fa fa-trash"></i></button>
-                              </td>
-                            </tr>
-                            </tbody>
-                          </table>
-                        </div>
-                        <!-- /.col -->
-                      </div>
-                      <!-- /.row -->
-        
-                      <div class="row">
-                        <!-- accepted payments column -->
-                        <div class="col-6">
-                          <p class="lead">Payment Methods:</p>
-                          <img src="/dist/img/credit/visa.png" alt="Visa">
-                          <img src="/dist/img/credit/mastercard.png" alt="Mastercard">
-                          <img src="/dist/img/credit/american-express.png" alt="American Express">
-                          <img src="/dist/img/credit/paypal2.png" alt="Paypal">
-                        </div>
-                        <!-- /.col -->
-                      </div>
-                      <!-- /.row -->
-        
-                      <!-- this row will not appear when printing -->
-                      <div class="row no-print">
-                        <div class="col-12">
-                          <a href="invoice-print.html" rel="noopener" target="_blank" class="btn btn-default"><i class="fas fa-print"></i> Print</a>
-                          <button type="button" class="btn btn-success float-right"><i class="far fa-credit-card"></i> New
-                            Payment
-                          </button>
-                          <button type="button" class="btn btn-primary float-right" style="margin-right: 5px;">
-                            <i class="fas fa-download"></i> Generate PDF
-                          </button>
+                        <!-- /.row -->
+          
+                        <!-- this row will not appear when printing -->
+                        <div class="row no-print">
+                          <div class="col-12">
+                            <a href="invoice-print.html" rel="noopener" target="_blank" class="btn btn-default"><i class="fas fa-print"></i> Print</a>
+                            <button type="button" class="btn btn-primary float-right" style="margin-right: 5px;">
+                              <i class="fas fa-download"></i> Generate PDF
+                            </button>
+                          </div>
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
-              </div>
-            </section>
+              </section>
 
         </div>
 
